@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B666FBC3-D7F8-4815-A8D1-C0EB0B35E5E8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BLELinkedinPOC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24D4432F-8C3E-4811-8D5C-EA8A6E2CF61D</key>
+		<string>https://github.com/KiranPatel-iOS/LearnGit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BLELinkedinPOC/BLELinkedinPOC.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24D4432F-8C3E-4811-8D5C-EA8A6E2CF61D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KiranPatel-iOS/LearnGit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24D4432F-8C3E-4811-8D5C-EA8A6E2CF61D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24D4432F-8C3E-4811-8D5C-EA8A6E2CF61D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LearnGit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

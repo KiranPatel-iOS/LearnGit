@@ -13,11 +13,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
     _mcManager = [[MCManager alloc] init];
+    
+    
+    
     
     self.homeView = [[HomeViewController alloc]initWithNibName: @"HomeViewController" bundle:nil];
     
