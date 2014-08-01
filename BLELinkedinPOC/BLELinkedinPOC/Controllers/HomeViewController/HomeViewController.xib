@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="IBbtnCheckLinkdInProfile" destination="8M8-c1-oj9" id="u0p-vK-7WD"/>
+                <outlet property="IBbtnConnectLinkdIn" destination="fhM-Es-nEg" id="1py-pF-nsm"/>
+                <outlet property="IBbtnFindNearByUsers" destination="12o-Tr-BmK" id="fpF-Iu-YZp"/>
+                <outlet property="IBlblUserHeadLine" destination="DLE-fk-s5y" id="3HJ-PI-7tn"/>
+                <outlet property="IBlblUserName" destination="219-OB-fGv" id="KRv-L4-MeM"/>
+                <outlet property="IBscrollMain" destination="1Hj-Na-gbS" id="wFn-Wb-HbC"/>
+                <outlet property="IBviewButtonContainer" destination="H05-AL-wsH" id="oaj-D6-KIo"/>
+                <outlet property="IBviewUserData" destination="3AB-o7-n2w" id="MWx-fX-48K"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" userLabel="View - Main">
+            <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="1Hj-Na-gbS" userLabel="Scroll View - Main">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="H05-AL-wsH" userLabel="View - Button Container">
+                            <rect key="frame" x="10" y="20" width="300" height="160"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fhM-Es-nEg">
+                                    <rect key="frame" x="25" y="20" width="250" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Connect with LinkedIn" image="img_in">
+                                        <color key="titleColor" red="0.10588235294117647" green="0.38431372549019605" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="IBconnectWithLinkedIn" destination="-1" eventType="touchUpInside" id="vTC-uM-MnL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="12o-Tr-BmK">
+                                    <rect key="frame" x="25" y="86" width="220" height="50"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Find near by users" image="img_in">
+                                        <color key="titleColor" red="0.1058823529" green="0.38431372549999998" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="IBfindNearByUsers" destination="-1" eventType="touchUpInside" id="csR-BJ-DrV"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.1058823529" green="0.38431372549999998" blue="0.58823529409999997" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="3AB-o7-n2w" userLabel="View - User Details">
+                            <rect key="frame" x="10" y="200" width="300" height="130"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wAN-7w-kiK" userLabel="Label - User name">
+                                    <rect key="frame" x="20" y="10" width="95" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                    <color key="textColor" red="0.1058823529" green="0.38431372549999998" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="219-OB-fGv">
+                                    <rect key="frame" x="120" y="10" width="170" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DLE-fk-s5y">
+                                    <rect key="frame" x="120" y="48" width="170" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Headline" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nEH-gs-yMZ">
+                                    <rect key="frame" x="20" y="48" width="101" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                    <color key="textColor" red="0.1058823529" green="0.38431372549999998" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8M8-c1-oj9">
+                                    <rect key="frame" x="20" y="88" width="101" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Check profile">
+                                        <color key="titleColor" red="0.1058823529" green="0.38431372549999998" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="IBcheckUserLinkedInProfile" destination="-1" eventType="touchUpInside" id="OOp-yo-asd"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.10588235294117647" green="0.38431372549019605" blue="0.58823529411764708" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_in" width="50" height="50"/>
+    </resources>
+</document>
